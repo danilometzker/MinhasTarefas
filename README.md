@@ -8,3 +8,4 @@ Implementações:
 - Estilo diferente
 - Campo de descrição da tarefa
 - Uso de LocalStorage para salvar a lista de tarefas no navegador
+- Mudança na estrutura de organização dos componentes com pastas
