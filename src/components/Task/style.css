@@ -1,0 +1,71 @@
+.task-container{
+    background-color: rgb(221, 221, 221);
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+    align-items: center;
+    border-left: 4px solid transparent;
+    cursor: pointer;
+}
+.task-container.completed{
+    border-color: dodgerblue;
+}
+.task-title{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.check-task{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(97, 97, 97);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.check-task div{
+    display: flex;
+    opacity: 0;
+}
+
+.task-container.completed .check-task{
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+.task-container.completed .check-task div{
+    opacity: 1;
+}
+
+.task-actions{
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions button{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.task-actions button div{
+    display: flex;
+}
+
+.task-actions button:hover{
+    background-color: rgba(187, 187, 187, 0.3);
+}

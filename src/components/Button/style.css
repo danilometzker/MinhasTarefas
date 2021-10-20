@@ -1,0 +1,16 @@
+.task-button{
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    border: none;
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.task-button:hover{
+    background-color: rgb(66, 161, 255);
+}

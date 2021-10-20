@@ -1,0 +1,48 @@
+.task-details{
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-details.completed{
+    border-left: 4px solid dodgerblue;
+}
+
+.details-title{
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    border-bottom: 2px solid dodgerblue;
+    align-items: center;
+    gap: 10px;
+}
+.details-completed{
+    background-color: dodgerblue;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-details p{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: 18px;
+    color: rgb(146, 146, 146);
+}
+
+.error{
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
