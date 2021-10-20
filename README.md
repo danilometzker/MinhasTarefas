@@ -3,7 +3,7 @@ Projeto para iniciante em React JS do curso do Felipe Rocha
 
 Projeto base: https://www.youtube.com/watch?v=ErjWNvP6mko
 
-[![Previsualização](https://i.imgur.com/QqORxBc.png)]
+![Previsualização](https://i.imgur.com/QqORxBc.png)
 ---
 Implementações:
 - Estilo diferente
