@@ -48,11 +48,13 @@ const App = () => {
     });
 
     setTasks(newTasks);
+    localStorage.setItem("tasks", JSON.stringify(newTasks));
   };
 
   const handleTaskRemove = (taskId) => {
     const newTasks = tasks.filter(task => task.id !== taskId);
     setTasks(newTasks);
+    localStorage.setItem("tasks", JSON.stringify(newTasks));
   }
   
 
