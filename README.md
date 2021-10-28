@@ -1,4 +1,4 @@
-# MinhasTarefas
+# MinhasTarefas 2
 Projeto para iniciante em React JS do curso do Felipe Rocha
 
 Projeto base: https://www.youtube.com/watch?v=ErjWNvP6mko
